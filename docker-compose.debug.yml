@@ -1,0 +1,13 @@
+version: '2.1'
+
+services:
+  hw1:
+    image: hw1
+    build: .
+    environment:
+      NODE_ENV: development
+    ports:
+      - 3003:3003
+      - 9229:9229
+    ## set your startup file here
+    command: node --inspect index.js

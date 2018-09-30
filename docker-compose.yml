@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  hw1:
+    image: hw1
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3003:3003

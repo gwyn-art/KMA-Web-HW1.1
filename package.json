@@ -1,0 +1,12 @@
+{
+  "name": "hw1",
+  "version": "1.0.0",
+  "description": "Home wrok 1 (Nikiforov)",
+  "main": "./src/start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/start.js"
+  },
+  "author": "gwynart",
+  "license": "ISC"
+}
